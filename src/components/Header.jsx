@@ -2,7 +2,7 @@ import logo from '../assest-img/Frame.jpg'
 const Header = () => {
     return (
     <div className='w-11/12 mx-auto'>
-        <div className="navbar bg-base-100 flex flex-col md:flex-row justify-between items-center">
+        <div className="navbar bg-base-100 flex flex-col sm:flex-row justify-between items-center">
         <div className="navbar-start w-auto">
             <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -57,7 +57,7 @@ const Header = () => {
             </li>
             </ul>
         </div>
-        <div className="navbar-end flex flex-col md:flex-row w-auto">
+        <div className="navbar-end flex flex-col sm:flex-row w-auto">
             <input className='bg-gray-200 rounded-2xl px-3 py-1' placeholder='Search' type="text" name="" id="" />
             <button><img src={logo} alt="" /></button>
         </div>
